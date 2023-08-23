@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 100vw;
+    height: 100vh;
+
+    /* animation 연결 */
+
+}
+@keyframes 배경색깔 이름{
+
+}
+.sky{
+    width: 100%;
+    height: 55%;
+    position: relative;
+}
+.sky > .sun{
+    height: 45%;
+    position: absolute;
+    left: 100px;
+    top: 70px;
+
+    /* animation 연결 */
+}
+@keyframes 해 이름{
+
+}
+.sky > .moon{
+    height: 45%;
+    position: absolute;
+    left: 100px;
+    top: 70px;
+    
+    /* animation 연결 */
+}
+@keyframes 달 이름{
+
+}
+
+.sky > .cloud1{
+    height: 27%;
+    position: absolute;
+    left: 400px; /*1400px*/
+    top: 80px;
+
+    /* animation 연결 */
+}
+@keyframes 구름1 이름{
+
+}
+
+.sky > .cloud2{
+    height: 17%;
+    position: absolute; /*1200px*/
+    left: 600px; /*1400px*/
+    top: 270px;
+
+    /* animation 연결 */
+}
+@keyframes 구름2 이름{
+
+}
+.city{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+}
+.city > .cityImg{
+    height: 100%;
+}
